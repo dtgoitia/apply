@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn -D electron typescript
+
+PATH: 
+  /home/dtg/.cargo/bin:/home/dtg/.cargo/bin:/home/dtg/.cargo/bin:/home/dtg/.cargo/bin:/home/dtg/.cargo/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+Yarn version: 
+  1.4.0
+
+Node version: 
+  9.6.1
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "apply",
+    "version": "1.0.0",
+    "description": "Electron app to track of application processes. ",
+    "main": "dist/index.js",
+    "repository": "git@github.com:dtgoitia/apply.git",
+    "author": "David Torralba Goitia <david.torralba.goitia@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command "typescript" not found.
+      at new MessageError (/usr/lib/node_modules/yarn/lib/cli.js:186:110)
+      at /usr/lib/node_modules/yarn/lib/cli.js:86874:17
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:116:14
+      at new Promise (<anonymous>)
+      at new F (/usr/lib/node_modules/yarn/lib/cli.js:23457:28)
+      at /usr/lib/node_modules/yarn/lib/cli.js:95:12
+      at runCommand (/usr/lib/node_modules/yarn/lib/cli.js:86879:22)
+      at Object.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:86979:14)
