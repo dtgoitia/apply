@@ -2,6 +2,9 @@ import { app, BrowserWindow } from "electron";
 import * as path from "path";
 import * as url from "url";
 
+require('electron-reload')(__dirname, {});
+// https://stackoverflow.com/questions/46533095/angular-4-electron-how-to-run-application-and-watch-for-changes-live-reload
+
 let mainWindow: Electron.BrowserWindow;
 
 function createWindow() {
