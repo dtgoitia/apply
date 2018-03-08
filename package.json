@@ -1,0 +1,27 @@
+{
+  "name": "apply",
+  "version": "1.0.0",
+  "description": "Electron app to track of application processes.",
+  "main": "dist/index.js",
+  "repository": "git@github.com:dtgoitia/apply.git",
+  "author": "David Torralba Goitia <david.torralba.goitia@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jquery": "^3.3.0",
+    "bootstrap": "^4.0.0",
+    "electron": "^1.8.2",
+    "electron-reload": "^1.2.2",
+    "jquery": "^3.3.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "dependencies": {
+    "electron-reload": "^1.2.2",
+    "popper.js": "^1.12.9"
+  }
+}
